@@ -1,0 +1,56 @@
+.img-max {
+    max-width: 450px;
+    max-height: 300px;
+    }
+.edCon1 {
+    border-left:solid;
+    border-top:solid;
+    background-color: aliceblue;
+}
+.edCon2 {
+    border-top:solid;
+    border-right:solid;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.edCon3 {
+    border-left:solid;
+    border-bottom:solid;
+    background-color: aliceblue;
+    padding-bottom: 10px
+}
+.edCon4 {
+    border-right:solid;
+    border-bottom:solid;
+    background-color: aliceblue;
+}
+
+@media (max-width: 500px) {
+    .edCon1 {
+        border-right:solid;
+        background-color: aliceblue;
+    }
+    .edCon2 {
+        border-left:solid;
+        border-bottom:solid;
+        background-color: aliceblue;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    .edCon3 {
+        border-right:solid;
+        background-color: aliceblue;
+        padding-bottom: 10px
+    }
+    .edCon4 {
+        border-left:solid;
+        border-right:solid;
+        border-bottom:solid;
+        background-color: aliceblue;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+}
+.pubCon {
+    padding-left: 10px;
+}

@@ -1,0 +1,67 @@
+<!-- About -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">About Me</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center align-self-center">
+        <div class="large">
+          <img class="img-fluid" src="assets/img/nasaGRC.jpg" alt="" width="450" height="300" style="border-radius: 10%;border:solid;border-color: black;">
+        </div>
+      </div>
+      <div class="col-lg-6 mx-auto text-left align-self-center">
+        <div class="large" style="text-align:justify">I am an aerospace engineer with specialized experience in experimental and theoretical analysis of spacecraft, launch vehicle, and aircraft structures to determine their behavior in atmospheric and space environments and their interaction with the environment. 
+          I have experience in analyzing structural response to loads and temperatures, vibrational and damping structures, and their components. 
+          Currently, I am involved in two projects at NASA, these are the high efficiency megawatt motor and orion main engine. 
+          My background in structural mechanics, systems engineering, and manufacturing continues to enable me to solve challenging problems in the aerospace field.
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-left  align-self-center" style="padding-top: 30px;">
+        <div class="large" style="text-align:justify">I am passionate about researching existing state-of-the-art knowledge and pursuing the development or advancement of new technology that will help improve society. Challenging problems can be a frustrating endeavor, and I have learned from my colleagues and through my own experience that patience, persistence, and continuously asking questions and seeking answers will steer you toward a viable solution. I consider myself extremely fortunate to have worked in a team of passionate individuals whom collectively developed simulation frameworks that help engineers solve problems in large scale additive manufacturing and design allowables for composites. My portfolio section highlights contributions made in these areas.</div>
+      </div>
+      <div class="col-lg-6 mx-auto text-center align-self-center" style="padding-top: 30px;">
+        <div class="large">
+          <img class="img-fluid" src="assets/img/Picture14.png" alt="" width="450" height="300">
+          <p class="section-subheading text-muted" style="font-size: 75%">Icon made by Freepik from <a href="www.flaticon.com">www.flaticon.com</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center align-self-center" style="padding-top: 30px;">
+        <div class="large">
+          <img class="img-fluid" src="assets/img/space/1.jpg" alt="" width="450" height="300" style="border-radius: 10%;border:solid;border-color: black;">
+        </div>
+      </div>
+      <div class="col-lg-6 mx-auto text-left align-self-center" style="padding-top: 30px;">
+        <div class="large" style="text-align:justify">
+          <strong>My philosophy</strong>: What matters most in life are the human connections we make along the way to the end. 
+          Once our simulation approaches the end, I hope to reflect on those connections and moments that brought joy and made a positive impact in our world.</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Us" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.about.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted">{{ site.data.sitetext.about.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End About -->
