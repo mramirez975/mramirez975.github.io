@@ -70,8 +70,10 @@ An extrusion deposition additive manufacturing system was used for delivering mo
 <figcaption>Fig. 7 - Experimental setup of pultrusion process after impregnation, with tow passing through cooling water station</figcaption>
 </figure>
 
+<div class="videoResponsive">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QtGrb6V_GNY?autoplay=1&mute=1" title="YouTube video player" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
 picture-in-picture; web-share" allowfullscreen>
 </iframe>
+</div>
 <figcaption style="margin-bottom:50px">Vid. 1 - Pultrusion process walkthrough</figcaption>

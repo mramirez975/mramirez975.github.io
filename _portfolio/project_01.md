@@ -9,7 +9,11 @@ caption:
   subtitle: Aerospace Design
   thumbnail: assets/img/portfolio/proj1/p1.png
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pYgLNi9lDdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="videoResponsive">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pYgLNi9lDdw" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <p style="text-align:justify">
 <strong>Overview</strong>: The National Aeronautics and Space Administration (NASA) Glenn Research Center (GRC) has been investing in Electrified Aircraft Propulsion (EAP), which has led to conceptual aircraft designs intended to adopt partial or fully electric engines [1]. 

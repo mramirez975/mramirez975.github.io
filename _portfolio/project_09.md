@@ -106,10 +106,13 @@ The test methods learned were: fabrication of test specimens, fiber volume fract
 <figcaption>Fig. 8 - Open hole tension experiment to characterize stress concentration factor</figcaption>
 </figure>
 
-<video width="50%" style="transform:rotate(270deg);margin-top:-125px;margin-bottom:-125px" autoplay muted loop>
+<div class="videoResponsive">
+<video width="40%" style="transform:rotate(270deg);" autoplay muted loop>
   <source src="/assets/img/portfolio/proj9/m1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+</div>
+
 <figcaption style="margin-bottom:30px">Vid. 1 - Open hole tension experiment depicting evolution of surface strain field, E11 (left and horizontal axis direction) , E22 (center and vertical axis direction), and E12 (right)</figcaption>
 
 <h6 style="text-align:left">Mode I and mode II fracture toughness</h6>

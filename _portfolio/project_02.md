@@ -46,6 +46,8 @@ As part of the stress and fracture team, I provide guidance and review documenta
 </ul>
 </p>
 
+<div class="videoResponsive">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XEhgp2EhPao" 
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
